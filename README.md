@@ -3,7 +3,7 @@ Imputation, genome-wide association and gene ontology tool.
 
 
 ### Computer specification
-Linux/Ubuntu etc
+impassago has been tested on Ubuntu 
 x GB Hard drive space
 
 ## Requirements
@@ -14,6 +14,9 @@ R V>3.4
 > install.packages("tidyverse")  
 > source("http://bioconductor.org/biocLite.R")  
 > biocLite("IRanges")  
+> install.packages("data.table")
+> install.packages("bit64")
+
 
 Usage:
 
