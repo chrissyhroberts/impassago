@@ -17,17 +17,18 @@ You may be able to skip these if you have used R before
 >sudo apt-get install -y libxml2-dev libcurl4-openssl-dev libssl-dev
 
 ### R packages
+Install the required R packages
+
 > R  
 > install.packages("tidyverse")  
 > source("http://bioconductor.org/biocLite.R")  
 > biocLite("IRanges")  
-> install.packages("data.table")
-> install.packages("bit64")
-
+> install.packages("data.table")  
+> install.packages("bit64")  
+> q()
 
 ### Usage:
 
-./impassago.sh prepare  - doesn't do anything  
 
 ./impassago.sh download
 
