@@ -1,5 +1,13 @@
-# impassago
-Imputation, genome-wide association and gene ontology tool.
+# impassago  
+
+#### Imputation, genome-wide association and gene ontology tool.  
+
+Impassago provides the non-expert user with an out of the box tool for automation of a common set of GWAS data analyses with a view to identifying novel avenues for further study. The Impassago tool combines Plink, Impute2, Emmax and GenGen to efficiently and automatically QC, impute with 1000 Genomes, perform mixed model association tests, perform pathway analyses and generate reports on SNP data.
+
+The tool generates two scripts: one for use on a single computer via 'parallel' and one for use on high performance clusters by calling 'qsub'. Both scripts are configurable for alternatives.
+
+
+Contact: mark.preston@nibsc.org  
 
 ### Computer specification
 impassago has been tested on Ubuntu 16.04 (64-bit), running on an Intel Core i7 CPU @ 4.00GHz with 24GB RAM
