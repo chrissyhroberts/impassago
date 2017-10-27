@@ -10,9 +10,9 @@ The tool generates two scripts: one for use on a single computer via 'parallel' 
 Contact: mark.preston@nibsc.org  
 
 ### Computer specification
-impassago has been tested on Ubuntu 16.04 (64-bit), running on an Intel Core i7 CPU @ 4.00GHz with 24GB RAM
-Hard drive space needed will depend on size of data set. 
-We have run a 7500 person x 2.5 million SNP study on 200 GB hard drive space.
+impassago has been tested on Ubuntu 16.04 (64-bit), running on an Intel Core i7 CPU @ 4.00GHz with 24GB RAM  
+Hard drive space needed will depend on size of data set  
+We have run a 7500 person x 2.5 million SNP study on 200 GB hard drive space  
 
 ### Basic setup 
 The next two commands will install R and dependencies. 
@@ -24,7 +24,7 @@ You may be able to skip these if you have used R before
 #### Libraries for R to pull packages from CRAN
 >sudo apt-get install -y libxml2-dev libcurl4-openssl-dev libssl-dev
 
-### R packages
+#### R packages
 Install the required R packages
 
 > R  
@@ -36,14 +36,17 @@ Install the required R packages
 > q()
 
 ### Usage:
+> ./impassago.sh prepare
 
 
-./impassago.sh download
+> ./impassago.sh download
 
-./impassago.sh check
+# detected problem here. if any issues during install. second attempt has another issue 'failed to create symbolic link './calculate_gsea.pl' : file exists
 
-./impassago.sh start
+> ./impassago.sh check
 
-./impassago.sh resume
+> ./impassago.sh start
 
-./impassago.sh report
+> ./impassago.sh resume
+
+> ./impassago.sh report
