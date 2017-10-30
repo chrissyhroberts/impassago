@@ -37,16 +37,26 @@ Install the required R packages
 
 ### Usage:
 > ./impassago.sh prepare
-
+Doesn't do anything
 
 > ./impassago.sh download
 
-# detected problem here. if any issues during install. second attempt has another issue 'failed to create symbolic link './calculate_gsea.pl' : file exists
+#### detected problem here. if any issues during install. second attempt has another issue 'failed to create symbolic link './calculate_gsea.pl' : file exists
 
 > ./impassago.sh check
 
+Just echos 'check'
+
 > ./impassago.sh start
 
+Just echos 'start'
+
 > ./impassago.sh resume
+Just echos 'resume
+'
 
 > ./impassago.sh report
+Just echos 'report'
+
+> ./impassago.sh filter
+Just echos 'report'
